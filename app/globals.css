@@ -16,6 +16,8 @@ body {
   color: #0a0a0a;
   font-family: "Space Mono", "Courier New", monospace;
   -webkit-font-smoothing: antialiased;
+  /* never allow a horizontal scrollbar from brutalist offset shadows */
+  overflow-x: hidden;
 }
 
 * {
@@ -236,5 +238,21 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .marquee-track {
     animation-duration: 120s;
+  }
+}
+
+/* Compact the marquee on small screens. */
+@media (max-width: 640px) {
+  .marquee-bar {
+    height: 44px;
+  }
+  .marquee-label {
+    padding: 0 10px;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+  }
+  .marquee-item {
+    font-size: 12px;
+    gap: 8px;
   }
 }

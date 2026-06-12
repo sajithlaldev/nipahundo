@@ -61,6 +61,7 @@ export default function RouteMap() {
   const baseLineRef = useRef<Polyline | null>(null);
   const locMarkersRef = useRef<Map<string, Marker>>(new Map());
   const rafRef = useRef<number | null>(null);
+  const roRef = useRef<ResizeObserver | null>(null);
   const waypointsRef = useRef<Waypoint[]>([]);
 
   const [ready, setReady] = useState(false);
@@ -142,6 +143,16 @@ export default function RouteMap() {
 
       map.fitBounds(L.latLngBounds(orderedPts).pad(0.25));
 
+      // Repaint tiles on container/viewport changes (mobile orientation,
+      // dynamic browser toolbars, late layout) so the map never shows blank.
+      map.invalidateSize();
+      window.setTimeout(() => map.invalidateSize(), 250);
+      if (containerRef.current) {
+        const ro = new ResizeObserver(() => map.invalidateSize());
+        ro.observe(containerRef.current);
+        roRef.current = ro;
+      }
+
       // Initial timestamp = first waypoint.
       if (wps[0]) {
         setStamp(wps[0].stamp);
@@ -153,6 +164,8 @@ export default function RouteMap() {
     return () => {
       cancelled = true;
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      roRef.current?.disconnect();
+      roRef.current = null;
       mapRef.current?.remove();
       mapRef.current = null;
       beaconRef.current = null;
@@ -327,32 +340,32 @@ export default function RouteMap() {
     <div className="relative">
       <div
         ref={containerRef}
-        className="h-[60vh] min-h-[380px] w-full border-4 border-ink"
+        className="h-[58vh] min-h-[320px] w-full border-4 border-ink sm:h-[60vh] sm:min-h-[380px]"
         aria-label="Map of Nipah patient route in Kozhikode"
       />
 
       {/* Timestamp readout */}
-      <div className="pointer-events-none absolute right-3 top-3 z-[500]">
-        <div className="pointer-events-auto border-4 border-ink bg-acid px-3 py-2 shadow-brutalSm">
-          <div className="text-[10px] font-bold uppercase tracking-widest opacity-70">
+      <div className="pointer-events-none absolute right-2 top-2 z-[500] sm:right-3 sm:top-3">
+        <div className="pointer-events-auto border-2 border-ink bg-acid px-2 py-1.5 shadow-brutalSm sm:border-4 sm:px-3 sm:py-2">
+          <div className="text-[9px] font-bold uppercase tracking-widest opacity-70 sm:text-[10px]">
             Timestamp
           </div>
-          <div className="text-lg font-bold uppercase leading-none">
+          <div className="text-sm font-bold uppercase leading-none sm:text-lg">
             {stamp || "—"}
           </div>
-          <div className="mt-1 max-w-[12rem] text-[11px] font-bold uppercase leading-tight">
+          <div className="mt-1 max-w-[8.5rem] text-[10px] font-bold uppercase leading-tight sm:max-w-[12rem] sm:text-[11px]">
             {place}
           </div>
         </div>
       </div>
 
       {/* Play / Replay control */}
-      <div className="absolute bottom-3 left-1/2 z-[500] -translate-x-1/2">
+      <div className="absolute bottom-2 left-1/2 z-[500] -translate-x-1/2 sm:bottom-3">
         <button
           type="button"
           onClick={handlePlay}
           disabled={playing || !ready}
-          className="pointer-events-auto border-4 border-ink bg-ink px-5 py-3 text-base font-bold uppercase tracking-wide text-acid shadow-brutalSm transition-transform enabled:hover:-translate-y-0.5 disabled:opacity-70"
+          className="pointer-events-auto whitespace-nowrap border-4 border-ink bg-ink px-4 py-2.5 text-sm font-bold uppercase tracking-wide text-acid shadow-brutalSm transition-transform enabled:hover:-translate-y-0.5 disabled:opacity-70 sm:px-5 sm:py-3 sm:text-base"
         >
           {ready ? btnLabel : "LOADING…"}
         </button>

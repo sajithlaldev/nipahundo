@@ -85,14 +85,19 @@ export default function Home() {
       <footer className="mt-10 border-t-4 border-ink pt-4 text-xs uppercase leading-relaxed">
         <p className="font-bold">Source: {meta.source}</p>
         <p className="mt-1 opacity-80">{meta.disclaimer}</p>
-        <a
-          href={meta.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-2 inline-block break-all underline"
-        >
-          {meta.sourceUrl}
-        </a>
+        {meta.sourceUrl ? (
+          <a
+            href={meta.sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-2 inline-block break-all underline"
+          >
+            {meta.sourceUrl}
+          </a>
+        ) : null}
+        <p className="mt-3 inline-block border-2 border-ink bg-acid px-3 py-2 font-bold normal-case shadow-brutalSm">
+          🤖 This route data is automatically refreshed by Claude every 6 hours.
+        </p>
       </footer>
     </main>
   );

@@ -21,13 +21,24 @@ npm run build    # outputs to ./out
 
 ## Deploy to Cloudflare Pages
 
-This app uses `output: "export"` (pure static HTML), so no adapter is needed.
+This app uses `output: "export"` (pure static HTML → `./out`), so no adapter is
+needed. Deployment runs via **GitHub Actions Direct Upload**
+(`.github/workflows/deploy.yml`) to the Cloudflare Pages project **`kuzhiyundo`**:
 
-| Setting              | Value           |
-| -------------------- | --------------- |
-| Framework preset     | Next.js (Static Export) — or "None" |
-| Build command        | `npm run build` |
-| Build output directory | `out`         |
+- push to `main` → production deployment
+- pull request to `main` → preview deployment (URL commented on the PR)
+
+### Required GitHub repository secrets
+
+Settings → Secrets and variables → Actions:
+
+| Secret                  | What it is                                          |
+| ----------------------- | --------------------------------------------------- |
+| `CLOUDFLARE_API_TOKEN`  | Token with the **Cloudflare Pages: Edit** permission |
+| `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare account ID                          |
+
+> Use **either** this Actions workflow **or** Cloudflare's Git integration — not
+> both, or you'll get double deployments.
 
 > Note: the map uses indicative landmark coordinates for awareness only.
 > Always refer to official Kerala Health Department bulletins.

@@ -1,0 +1,64 @@
+name: Deploy to Cloudflare Pages
+
+# Builds the static Next.js export (output: 'export' -> ./out) and deploys it to
+# the "kuzhiyundo" Cloudflare Pages project via Direct Upload.
+#   - push to main         -> production deployment
+#   - pull request to main -> preview deployment (URL is commented on the PR)
+#
+# Required GitHub repository secrets (Settings -> Secrets and variables -> Actions):
+#   CLOUDFLARE_API_TOKEN   - token with the "Cloudflare Pages: Edit" permission
+#   CLOUDFLARE_ACCOUNT_ID  - your Cloudflare account ID
+# This app is a pure static site: no NEXT_PUBLIC_* build vars and no runtime secrets.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Cancel an in-progress run for the same branch/PR when a new commit lands.
+concurrency:
+  group: pages-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Deploy on every push to main, and on PRs only when they originate from this
+    # repo (not a fork). Fork PRs don't receive secrets and must not deploy
+    # unreviewed code with access to the project's credentials.
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    permissions:
+      contents: read
+      deployments: write
+      pull-requests: write # allow wrangler-action to comment the preview URL
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # This job runs untrusted PR code during install/build; don't leave the
+          # GITHUB_TOKEN persisted in the local git config for it to read.
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (static export)
+        run: npm run build # next.config.js sets output: 'export' -> ./out
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          # Push to main -> --branch=main (Cloudflare treats the production branch as
+          # production). PRs -> a deterministic pr-<number> branch so they always land
+          # as previews and can never accidentally resolve to the production branch.
+          command: pages deploy out --project-name=kuzhiyundo --branch=${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}

@@ -1,7 +1,7 @@
 name: Deploy to Cloudflare Pages
 
 # Builds the static Next.js export (output: 'export' -> ./out) and deploys it to
-# the "kuzhiyundo" Cloudflare Pages project via Direct Upload.
+# the "nipahundo" Cloudflare Pages project via Direct Upload.
 #   - push to main         -> production deployment
 #   - pull request to main -> preview deployment (URL is commented on the PR)
 #
@@ -61,4 +61,4 @@ jobs:
           # Push to main -> --branch=main (Cloudflare treats the production branch as
           # production). PRs -> a deterministic pr-<number> branch so they always land
           # as previews and can never accidentally resolve to the production branch.
-          command: pages deploy out --project-name=kuzhiyundo --branch=${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}
+          command: pages deploy out --project-name=nipahundo --branch=${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}

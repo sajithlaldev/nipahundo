@@ -23,7 +23,7 @@ npm run build    # outputs to ./out
 
 This app uses `output: "export"` (pure static HTML → `./out`), so no adapter is
 needed. Deployment runs via **GitHub Actions Direct Upload**
-(`.github/workflows/deploy.yml`) to the Cloudflare Pages project **`kuzhiyundo`**:
+(`.github/workflows/deploy.yml`) to the Cloudflare Pages project **`nipahundo`**:
 
 - push to `main` → production deployment
 - pull request to `main` → preview deployment (URL commented on the PR)

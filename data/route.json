@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "NIPAH ROUTE MAP",
+    "district": "KOZHIKODE, KERALA",
+    "source": "Kerala Health Department / Manorama Online",
+    "sourceUrl": "https://www.manoramaonline.com/news/latest-news/2026/06/12/nipah-virus-confirmed-in-kozhikode-health-department-issues-route-map.html",
+    "reportedOn": "2026-06-12",
+    "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
+  },
+  "patient": {
+    "age": 43,
+    "gender": "Male",
+    "place": "Ramanattukara Municipality",
+    "status": "Critical — on ventilator support",
+    "facility": "Kozhikode Medical College, Isolation ICU"
+  },
+  "contacts": {
+    "total": 77,
+    "healthcareWorkers": 58,
+    "family": 14,
+    "note": "All contacts in quarantine. None currently symptomatic."
+  },
+  "helpline": [
+    { "label": "Control Room", "number": "0495 2373901" },
+    { "label": "Control Room", "number": "9072007767" }
+  ],
+  "locations": [
+    { "id": "home", "name": "Home (near Farook College)", "lat": 11.1733, "lng": 75.8497, "type": "home" },
+    { "id": "redcrescent", "name": "Red Crescent Hospital", "lat": 11.1660, "lng": 75.8540, "type": "hospital" },
+    { "id": "postoffice", "name": "Farook College Post Office", "lat": 11.1726, "lng": 75.8503, "type": "public" },
+    { "id": "astermims", "name": "Aster MIMS Hospital", "lat": 11.2640, "lng": 75.7820, "type": "hospital" },
+    { "id": "medcollege", "name": "Kozhikode Medical College", "lat": 11.2769, "lng": 75.8056, "type": "hospital" }
+  ],
+  "timeline": [
+    {
+      "date": "2026-05-30",
+      "label": "MAY 30",
+      "events": [
+        { "time": "—", "locationId": "home", "place": "Home near Farook College", "detail": "At residence." }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "label": "JUN 02",
+      "events": [
+        { "time": "10:00 – 10:30 AM", "locationId": "redcrescent", "place": "Red Crescent Hospital", "detail": "Lab work." },
+        { "time": "11:00 AM – 12:50 PM", "locationId": "redcrescent", "place": "Red Crescent Hospital", "detail": "Day-care ward." }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "label": "JUN 03 – 06",
+      "events": [
+        { "time": "9:15 – 10:30 AM (daily)", "locationId": "postoffice", "place": "Farook College Post Office", "detail": "Daily visits, Jun 3 to Jun 6." }
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "label": "JUN 07",
+      "events": [
+        { "time": "8:15 AM", "locationId": "redcrescent", "place": "Red Crescent Hospital", "detail": "Casualty." },
+        { "time": "2:30 PM", "locationId": "redcrescent", "place": "Red Crescent Hospital", "detail": "Private ward." }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "label": "JUN 08",
+      "events": [
+        { "time": "8:06 AM", "locationId": "redcrescent", "place": "Red Crescent Hospital", "detail": "Discharged." },
+        { "time": "8:46 AM", "locationId": "astermims", "place": "Aster MIMS Hospital", "detail": "Admitted to emergency." }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "label": "JUN 09",
+      "events": [
+        { "time": "Daytime", "locationId": "astermims", "place": "Aster MIMS Hospital", "detail": "Ward; ultrasound / MRI procedures." },
+        { "time": "4:30 PM", "locationId": "astermims", "place": "Aster MIMS Hospital", "detail": "Transferred to isolation ward." }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "label": "JUN 10",
+      "events": [
+        { "time": "11:30 PM", "locationId": "medcollege", "place": "Kozhikode Medical College", "detail": "Admitted to isolation ICU." }
+      ]
+    }
+  ]
+}

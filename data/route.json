@@ -2,8 +2,8 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "Kerala Health Department",
-    "sourceUrl": "",
+    "source": "Onmanorama / Kerala Health Department",
+    "sourceUrl": "https://www.onmanorama.com/news/kerala/2026/06/12/nipah-alert-in-kozhikode-authorities-intensify-contact-monitoring-based-on-patient-s-route-map.html",
     "reportedOn": "2026-06-12",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
@@ -18,7 +18,7 @@
     "total": 77,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "All contacts in quarantine. None currently symptomatic."
+    "note": "15 highest/high-risk contacts in home quarantine; 62 low-risk contacts under active surveillance. None currently symptomatic."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

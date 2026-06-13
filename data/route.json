@@ -2,23 +2,23 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "Onmanorama / Kerala Health Department",
-    "sourceUrl": "https://www.onmanorama.com/news/kerala/2026/06/12/nipah-alert-in-kozhikode-authorities-intensify-contact-monitoring-based-on-patient-s-route-map.html",
-    "reportedOn": "2026-06-12",
+    "source": "ANI News / Kerala Health Minister K. Muraleedharan, Jun 13 2026",
+    "sourceUrl": "https://aninews.in/news/national/general-news/keralam-nipah-patients-stable-shigella-cases-under-control-health-minister20260613120800/",
+    "reportedOn": "2026-06-13",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
     "age": 43,
     "gender": "Male",
     "place": "Ramanattukara Municipality",
-    "status": "Critical — on ventilator support",
+    "status": "Stable condition — on ventilator support, isolation ICU; first dose of monoclonal antibody therapy administered per ICMR guidelines",
     "facility": "Kozhikode Medical College, Isolation ICU"
   },
   "contacts": {
-    "total": 77,
+    "total": 87,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "15 highest/high-risk contacts in home quarantine; 62 low-risk contacts under active surveillance. None currently symptomatic."
+    "note": "87 total contacts as of Jun 13 (4 highest-risk, 16 high-risk, 67 low-risk; 10 more added Jun 13). 3 contacts admitted for hospital observation — initial samples testing negative. All contacts monitored via twice-daily calls. None symptomatic."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

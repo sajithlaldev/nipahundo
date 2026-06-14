@@ -2,8 +2,8 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "ANI News / Kerala Health Minister K. Muraleedharan, Jun 13 2026",
-    "sourceUrl": "https://aninews.in/news/national/general-news/keralam-nipah-patients-stable-shigella-cases-under-control-health-minister20260613120800/",
+    "source": "The Print / PTI — ICMR team arrives in Kozhikode, contact list reaches 100, Jun 13 2026",
+    "sourceUrl": "https://theprint.in/india/icmr-team-arrives-in-kozhikode-after-nipah-case-confirmation-contact-list-reaches-100/2959117/",
     "reportedOn": "2026-06-13",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
@@ -15,10 +15,10 @@
     "facility": "Kozhikode Medical College, Isolation ICU"
   },
   "contacts": {
-    "total": 87,
+    "total": 100,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "87 total contacts as of Jun 13 (4 highest-risk, 16 high-risk, 67 low-risk; 10 more added Jun 13). 3 contacts admitted for hospital observation — initial samples testing negative. All contacts monitored via twice-daily calls. None symptomatic."
+    "note": "100 total contacts as of Jun 13 evening (4 very-high-risk, 14 high-risk, 82 low-risk; 13 more added Jun 13 on ICMR team arrival). 7 contacts admitted for hospital observation — all initial samples testing negative. ICMR team visited Kozhikode Medical College and reviewed response. All contacts monitored via twice-daily calls. None symptomatic."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

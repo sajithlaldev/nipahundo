@@ -2,23 +2,23 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "The Print / PTI — ICMR team arrives in Kozhikode, contact list reaches 100, Jun 13 2026",
-    "sourceUrl": "https://theprint.in/india/icmr-team-arrives-in-kozhikode-after-nipah-case-confirmation-contact-list-reaches-100/2959117/",
-    "reportedOn": "2026-06-13",
+    "source": "Manorama News — Nipah patient stable; antiviral medicines from Delhi administered, Jun 14 2026",
+    "sourceUrl": "https://www.manoramanews.com/kerala/latest/2026/06/14/nipa-virus-kerala-update-kozhikode-nipah-patient-treatment-kerala-fever-outbreak-news.html",
+    "reportedOn": "2026-06-14",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
     "age": 43,
     "gender": "Male",
     "place": "Ramanattukara Municipality",
-    "status": "Stable condition — on ventilator support, isolation ICU; first dose of monoclonal antibody therapy administered per ICMR guidelines",
+    "status": "Stable condition — on ventilator support, isolation ICU; first dose of monoclonal antibody therapy administered per ICMR guidelines (Jun 13); two types of antiviral medicines from Delhi also administered Jun 14",
     "facility": "Kozhikode Medical College, Isolation ICU"
   },
   "contacts": {
     "total": 100,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "100 total contacts as of Jun 13 evening (4 very-high-risk, 14 high-risk, 82 low-risk; 13 more added Jun 13 on ICMR team arrival). 7 contacts admitted for hospital observation — all initial samples testing negative. ICMR team visited Kozhikode Medical College and reviewed response. All contacts monitored via twice-daily calls. None symptomatic."
+    "note": "100 total contacts as of Jun 13 evening (4 very-high-risk, 14 high-risk, 82 low-risk; 13 more added Jun 13 on ICMR team arrival). 7 contacts admitted for hospital observation — three close relatives confirmed negative Jun 14; all others' initial samples negative. ICMR team visited Kozhikode Medical College and reviewed response. All contacts monitored via twice-daily calls. None symptomatic."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

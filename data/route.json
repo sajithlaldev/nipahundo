@@ -2,8 +2,8 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "Manorama News — Nipah patient stable; antiviral medicines from Delhi administered, Jun 14 2026",
-    "sourceUrl": "https://www.manoramanews.com/kerala/latest/2026/06/14/nipa-virus-kerala-update-kozhikode-nipah-patient-treatment-kerala-fever-outbreak-news.html",
+    "source": "Onmanorama — No new Nipah cases; 103 contacts under surveillance, Remdesivir administered, Jun 14 2026",
+    "sourceUrl": "https://www.onmanorama.com/news/kerala/2026/06/14/no-new-nipah-cases-kozhikode.html",
     "reportedOn": "2026-06-14",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
@@ -11,14 +11,14 @@
     "age": 43,
     "gender": "Male",
     "place": "Ramanattukara Municipality",
-    "status": "Stable condition — on ventilator support, isolation ICU; first dose of monoclonal antibody therapy administered per ICMR guidelines (Jun 13); two types of antiviral medicines from Delhi also administered Jun 14",
+    "status": "Stable condition — on ventilator support, isolation ICU; first dose of monoclonal antibody therapy (m102.4) administered per ICMR guidelines (Jun 13); Remdesivir (procured from Bahrain, flown via Delhi/Kannur) and Ribavirin administered Jun 14",
     "facility": "Kozhikode Medical College, Isolation ICU"
   },
   "contacts": {
-    "total": 100,
+    "total": 103,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "100 total contacts as of Jun 13 evening (4 very-high-risk, 14 high-risk, 82 low-risk; 13 more added Jun 13 on ICMR team arrival). 7 contacts admitted for hospital observation — three close relatives confirmed negative Jun 14; all others' initial samples negative. ICMR team visited Kozhikode Medical College and reviewed response. All contacts monitored via twice-daily calls. None symptomatic."
+    "note": "103 total contacts as of Jun 14 (4 very-high-risk, 14 high-risk, 85 low-risk). 11 contacts tested so far — all negative, including 8 results received Jun 14. No new Nipah cases reported. ICMR team reviewed response at Kozhikode Medical College. All contacts monitored via twice-daily calls. None symptomatic."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

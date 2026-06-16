@@ -2,23 +2,23 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "Onmanorama — No new Nipah cases; 103 contacts under surveillance, Remdesivir administered, Jun 14 2026",
-    "sourceUrl": "https://www.onmanorama.com/news/kerala/2026/06/14/no-new-nipah-cases-kozhikode.html",
-    "reportedOn": "2026-06-14",
+    "source": "ANI — Kerala Nipah: Second healthcare worker tests negative; patient remains on ventilator, Jun 16 2026",
+    "sourceUrl": "https://aninews.in/news/national/general-news/kerala-nipah-case-second-healthcare-worker-tests-negative-patient-remains-on-ventilator-support20260616105045/",
+    "reportedOn": "2026-06-16",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
     "age": 43,
     "gender": "Male",
     "place": "Ramanattukara Municipality",
-    "status": "Stable condition — on ventilator support, isolation ICU; first dose of monoclonal antibody therapy (m102.4) administered per ICMR guidelines (Jun 13); Remdesivir (procured from Bahrain, flown via Delhi/Kannur) and Ribavirin administered Jun 14",
+    "status": "Critical — on ventilator support, isolation ICU; second dose of monoclonal antibody therapy (m102.4) administered per ICMR guidelines (first dose Jun 13); Remdesivir and Ribavirin ongoing",
     "facility": "Kozhikode Medical College, Isolation ICU"
   },
   "contacts": {
     "total": 103,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "103 total contacts as of Jun 14 (4 very-high-risk, 14 high-risk, 85 low-risk). 11 contacts tested so far — all negative, including 8 results received Jun 14. No new Nipah cases reported. ICMR team reviewed response at Kozhikode Medical College. All contacts monitored via twice-daily calls. None symptomatic."
+    "note": "103 total contacts (4 very-high-risk, 14 high-risk, 85 low-risk); no new contacts added as of Jun 16. Second healthcare worker in primary contact list tested negative (Jun 16). Two close relatives discharged from observation Jun 15 after symptoms subsided and tests confirmed negative. One additional close relative admitted to Kozhikode Medical College for observation Jun 15; 6 persons under hospital observation. No new Nipah cases. Contact monitoring via twice-daily calls ongoing."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

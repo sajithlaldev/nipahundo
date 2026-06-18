@@ -2,9 +2,9 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "ANI — Keralam: One Nipah patient discharged, two more contacts test negative, Jun 17 2026",
-    "sourceUrl": "https://aninews.in/news/national/general-news/keralam-one-nipah-patient-discharged-two-more-contacts-test-negative20260617224606/",
-    "reportedOn": "2026-06-17",
+    "source": "The Federal — Kerala logs 110 Shigella cases in June amid Nipah scare, Jun 18 2026",
+    "sourceUrl": "https://thefederal.com/category/states/south/kerala/kerala-logs-110-shigella-cases-in-june-amid-nipah-scare-247166",
+    "reportedOn": "2026-06-18",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
@@ -18,7 +18,7 @@
     "total": 104,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk) as of Jun 17. One more person under observation discharged Jun 17 after symptoms subsided — 5 of 9 admitted contacts now discharged, 4 remain under hospital monitoring. Healthcare worker and relative of patient both tested negative Jun 17. Second healthcare worker in primary contact list tested negative Jun 16. Two close relatives discharged Jun 15 after tests confirmed negative. No new Nipah cases. Contact monitoring via twice-daily calls ongoing."
+    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk) as of Jun 18. One more person under observation discharged Jun 18 after testing negative — 6 of 9 admitted contacts now discharged, 3 remain under hospital monitoring. Healthcare worker and relative of patient both tested negative Jun 17. Second healthcare worker in primary contact list tested negative Jun 16. Two close relatives discharged Jun 15 after tests confirmed negative. No new Nipah cases. Bat droppings from nearby roosting sites sent to NIHSAD Bhopal for testing. Contact monitoring via twice-daily calls ongoing."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

@@ -2,8 +2,8 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "Onmanorama — All Nipah contacts discharged from hospital; 104 remain under monitoring, Jun 20 2026",
-    "sourceUrl": "https://www.onmanorama.com/news/kerala/2026/06/20/all-nipah-contacts-discharged-from-hospital-104-remain-under-monitoring.html",
+    "source": "Onmanorama — All 15 symptomatic Nipah contacts test negative in Kozhikode, Jun 20 2026",
+    "sourceUrl": "https://www.onmanorama.com/news/kerala/2026/06/20/symptomatic-nipah-contacts-test-negative.html",
     "reportedOn": "2026-06-20",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
@@ -18,7 +18,7 @@
     "total": 104,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk) as of Jun 20. All 9 contacts admitted to hospital have now been discharged — last 3 cleared Jun 19–20 after testing negative; none remain under hospital observation. All 14 persons who developed symptoms while on the contact list tested negative. No new Nipah cases confirmed. Patient remains critical on ventilator at Kozhikode Medical College. Bat droppings from nearby roosting sites sent to NIHSAD Bhopal for testing. Contact monitoring via twice-daily calls ongoing."
+    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk) as of Jun 20. All 9 contacts admitted to hospital have now been discharged — last 3 cleared Jun 19–20 after testing negative; none remain under hospital observation. All 15 persons who developed symptoms while on the contact list tested negative. No new Nipah cases confirmed. Patient remains critical on ventilator at Kozhikode Medical College. Bat droppings from nearby roosting sites sent to NIHSAD Bhopal for testing. Contact monitoring via twice-daily calls ongoing."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

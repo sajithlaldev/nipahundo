@@ -2,9 +2,9 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "Janmabhumi / Deshabhimani — Bat samples from roosting sites test negative; Nipah source unidentified, Jun 22 2026",
-    "sourceUrl": "https://janmabhumi.in/2026/06/22/3584841/news/kerala/bat-test-results-negative-nipah-source-not-found-epidemic-spreading-rapidly/",
-    "reportedOn": "2026-06-22",
+    "source": "ANI / Newkerala.com — 11 low-risk contacts discharged from Nipah surveillance after 21-day observation, Jun 24 2026",
+    "sourceUrl": "https://aninews.in/news/national/general-news/11-low-risk-contacts-discharged-from-nipah-surveillance-15-more-shigella-cases-reported-in-keralam20260624092727/",
+    "reportedOn": "2026-06-24",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
@@ -18,7 +18,7 @@
     "total": 104,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk) as of Jun 22. All 9 contacts admitted to hospital have been discharged; none remain under hospital observation. All 15 persons who developed symptoms while on the contact list tested negative. No new Nipah cases confirmed. Patient remains critical on ventilator at Kozhikode Medical College (as of Jun 22). Bat samples from roosting sites near patient's residence tested negative for Nipah (results confirmed Jun 22); source of infection remains unidentified. Kerala government has announced a zero surveillance study to investigate the recurrence of Nipah in Kozhikode. Contact monitoring ongoing."
+    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk initially). As of Jun 24: 11 low-risk contacts discharged from surveillance after completing 21-day observation without symptoms; 93 contacts still monitored (4 very-high-risk, 14 high-risk, 75 low-risk). All 9 contacts admitted to hospital have been discharged; none remain under hospital observation. All 15 persons who developed symptoms while on the contact list tested negative. No new Nipah cases confirmed. Patient remains critical on ventilator at Kozhikode Medical College. Bat samples from roosting sites near patient's residence tested negative for Nipah (results confirmed Jun 22); source of infection remains unidentified. Contact monitoring ongoing."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

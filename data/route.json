@@ -2,23 +2,23 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "The Federal / Asianet News — 4 more contacts discharged (11 HR, 74 LR now monitored; 89 total); 55 Nipah-like samples negative since Jun 10, Jun 27 2026",
-    "sourceUrl": "https://thefederal.com/category/states/south/kerala/kerala-records-10-new-shigella-cases-years-tally-rises-to-266-248265",
-    "reportedOn": "2026-06-27",
+    "source": "The Meghalayan Express / Health Minister Muraleedharan — all VHR and HR contacts complete 21-day quarantine (major milestone); only 3 LR contacts remain; patient on ventilator, last 2 samples negative; 58 Nipah-like samples negative since Jun 10. Jun 30 2026",
+    "sourceUrl": "https://themeghalayanexpress.com/all-contacts-of-keralas-lone-nipah-patient-complete-quarantine-minister/",
+    "reportedOn": "2026-06-30",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
     "age": 43,
     "gender": "Male",
     "place": "Ramanattukara Municipality",
-    "status": "Critical — on ventilator support, isolation ICU; second dose of monoclonal antibody therapy (m102.4) administered per ICMR guidelines (first dose Jun 13); Remdesivir and Ribavirin ongoing",
+    "status": "Critical — on ventilator support, isolation ICU; last two samples (week of Jun 24–30) tested negative for Nipah; medical board to decide further treatment. Second dose of monoclonal antibody therapy (m102.4) administered per ICMR guidelines (first dose Jun 13); Remdesivir and Ribavirin ongoing",
     "facility": "Kozhikode Medical College, Isolation ICU"
   },
   "contacts": {
     "total": 104,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk initially). As of Jun 24: 11 low-risk contacts discharged after 21-day observation. As of Jun 27: 4 more contacts discharged — 3 high-risk and 1 low-risk (all colleagues of patient who completed 21-day quarantine without symptoms); 89 contacts now monitored (4 very-high-risk, 11 high-risk, 74 low-risk). All 9 contacts previously admitted to hospital have been discharged; none remain under hospital observation. All 15 persons who developed symptoms while on the contact list tested negative. 55 samples from persons with Nipah-like symptoms in Kozhikode district since Jun 10 have tested negative. No new Nipah cases confirmed. Patient remains critical on ventilator at Kozhikode Medical College. Bat samples from roosting sites near patient's residence tested negative for Nipah (results confirmed Jun 22); source of infection remains unidentified. Contact monitoring ongoing."
+    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk initially). As of Jun 24: 11 low-risk contacts discharged after 21-day observation. As of Jun 27: 4 more contacts discharged — 3 high-risk and 1 low-risk; 89 contacts monitored (4 VHR, 11 HR, 74 LR). As of Jun 30: ALL persons in very-high-risk and high-risk categories have completed 21-day quarantine without symptoms — milestone declared by Health Minister Muraleedharan. On Jun 30, a further 3 HR and 24 LR contacts were released; only 3 low-risk contacts remain under surveillance. All 9 contacts previously admitted to hospital have been discharged. All 15 persons who developed symptoms while on contact list tested negative. 58 samples from persons with Nipah-like symptoms in Kozhikode district since Jun 10 have tested negative. No new Nipah cases confirmed. Patient remains on ventilator at Kozhikode Medical College; last two samples tested negative for Nipah. Bat samples from roosting sites near patient's residence tested negative (Jun 22); source of infection remains unidentified."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },

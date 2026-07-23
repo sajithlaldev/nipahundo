@@ -2,9 +2,9 @@
   "meta": {
     "title": "NIPAH ROUTE MAP",
     "district": "KOZHIKODE, KERALA",
-    "source": "The Meghalayan Express / Health Minister Muraleedharan — all VHR and HR contacts complete 21-day quarantine (major milestone); only 3 LR contacts remain; patient on ventilator, last 2 samples negative; 58 Nipah-like samples negative since Jun 10. Jun 30 2026",
-    "sourceUrl": "https://themeghalayanexpress.com/all-contacts-of-keralas-lone-nipah-patient-complete-quarantine-minister/",
-    "reportedOn": "2026-06-30",
+    "source": "Janmabhumi / MediaMangalam — Health Minister declares complete relief: all Nipah surveillance in Ramanattukara, Kozhikode officially withdrawn after 42 days (Jun 11 – Jul 22) with zero secondary cases confirmed. Jul 22 2026",
+    "sourceUrl": "https://janmabhumi.in/2026/07/22/3598202/news/kerala/relief-in-nipah-health-minister-says-surveillance-has-been-withdrawn/",
+    "reportedOn": "2026-07-22",
     "disclaimer": "Map coordinates are indicative landmarks for public awareness. Refer to official Health Department bulletins for the authoritative route map."
   },
   "patient": {
@@ -18,7 +18,7 @@
     "total": 104,
     "healthcareWorkers": 58,
     "family": 14,
-    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk initially). As of Jun 24: 11 low-risk contacts discharged after 21-day observation. As of Jun 27: 4 more contacts discharged — 3 high-risk and 1 low-risk; 89 contacts monitored (4 VHR, 11 HR, 74 LR). As of Jun 30: ALL persons in very-high-risk and high-risk categories have completed 21-day quarantine without symptoms — milestone declared by Health Minister Muraleedharan. On Jun 30, a further 3 HR and 24 LR contacts were released; only 3 low-risk contacts remain under surveillance. All 9 contacts previously admitted to hospital have been discharged. All 15 persons who developed symptoms while on contact list tested negative. 58 samples from persons with Nipah-like symptoms in Kozhikode district since Jun 10 have tested negative. No new Nipah cases confirmed. Patient remains on ventilator at Kozhikode Medical College; last two samples tested negative for Nipah. Bat samples from roosting sites near patient's residence tested negative (Jun 22); source of infection remains unidentified."
+    "note": "104 total contacts (4 very-high-risk, 14 high-risk, 86 low-risk initially). As of Jun 24: 11 low-risk contacts discharged after 21-day observation. As of Jun 27: 4 more contacts discharged — 3 high-risk and 1 low-risk; 89 contacts monitored (4 VHR, 11 HR, 74 LR). As of Jun 30: ALL persons in very-high-risk and high-risk categories have completed 21-day quarantine without symptoms — milestone declared by Health Minister Muraleedharan. On Jun 30, a further 3 HR and 24 LR contacts were released; only 3 low-risk contacts remain under surveillance. All 9 contacts previously admitted to hospital have been discharged. All 15 persons who developed symptoms while on contact list tested negative. 58 samples from persons with Nipah-like symptoms in Kozhikode district since Jun 10 have tested negative. No new Nipah cases confirmed. Patient remains on ventilator at Kozhikode Medical College; last two samples tested negative for Nipah. Bat samples from roosting sites near patient's residence tested negative (Jun 22); source of infection remains unidentified. AS OF JUL 22 2026: Kerala Health Minister declared COMPLETE RELIEF — all remaining Nipah surveillance in Ramanattukara, Kozhikode officially withdrawn 42 days after the Jun 11 confirmation. Zero secondary cases recorded throughout the outbreak. Outbreak declared fully contained (Janmabhumi / MediaMangalam, Jul 22 2026)."
   },
   "helpline": [
     { "label": "Control Room", "number": "0495 2373901" },
